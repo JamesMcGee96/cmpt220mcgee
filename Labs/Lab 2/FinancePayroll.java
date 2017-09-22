@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 import java.util.Scanner;
 public class FinancePayroll {
 
@@ -19,7 +19,8 @@ public class FinancePayroll {
 		System.out.print("Enter state tax withholding rate: ");
 		double stateTaxRate = input.nextDouble();
 
-		
+		//JA: You should initialize the variables in a separate statement
+		// instead of the print
 		double grossPay, federal, state, totalDeduction;
 		System.out.printf(
 			"Employee Name: " + name + 
