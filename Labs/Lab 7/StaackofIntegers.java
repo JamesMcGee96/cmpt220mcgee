@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 
 public class StaackofIntegers {
 
@@ -10,6 +10,7 @@ public class StaackofIntegers {
 		   public static final int MAX_SIZE = 16;
 
 		   public StaackofIntegers() {
+			   this(16); // JA: Otherwise it will be empty
 		   }
 
 		   public StaackofIntegers(int capacity) {

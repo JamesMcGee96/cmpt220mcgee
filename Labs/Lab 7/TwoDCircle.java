@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 import java.util.*;
 //2D Circle
 
@@ -15,7 +15,7 @@ import java.util.*;
 public class TwoDCircle{
 public static void main(String[] args) {
 	
-private double x; 
+private double x; // JA: These should not be inside main
 private double y; 
 private double radius; 
 

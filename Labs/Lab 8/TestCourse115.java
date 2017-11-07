@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ public class TestCourse115 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Course c1 = new Course("Java Programming");
+		Course c1 = new Course("Java Programming"); // JA: This class does not exist
 		Course c2 = new Course ("Multimedia");
 		
 		c1.addStudent("Peter Jones");
