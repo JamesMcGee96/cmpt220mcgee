@@ -1,10 +1,10 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 public class Course {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// TODO Auto-generated method stub
 	
-		private String Name;
+		private String Name; // JA: Are there the data fields? Why are they inside main?
 	    private String[] student = new String[10];
 	    private int sizeOfClass;
 

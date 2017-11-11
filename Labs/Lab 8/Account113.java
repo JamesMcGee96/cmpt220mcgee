@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 import java.util.Date;
 
 //uml
@@ -30,6 +30,7 @@ public class Account113 {
 		  
 		  private Date dateCreated = new java.util.Date();
 		  
+		  // JA: If you rename the class, you have to rename the constructors
 		  public Account () {
 			  java.util.Date dateCreated = new java.util.Date();
 		  }

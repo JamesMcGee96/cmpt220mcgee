@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 //uml
 //GeometricObject
 
@@ -13,6 +13,7 @@ public class GeometricObject {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		//JA: This had=s to be outside the main method
 		private String TColor;
 		private boolean isfilled;
 		
