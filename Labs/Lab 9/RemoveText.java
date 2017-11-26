@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 import java.io.*;
 import java.util.*;
 public class RemoveText {
