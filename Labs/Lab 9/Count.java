@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 import java.io.*;
 import java.util.*;
 public class Count {
@@ -29,11 +29,11 @@ int linesCount = 0;
 while(infile.hasNextLine()) {
 	line = infile.nextLine();
 	linesCount++;
-	String[] words = line.split("");
+	String[] words = line.split(" "); // JA
 	wordsCount += words.length;
 	
 	for(String token : words){
-		charactersCount += token.length();
+		charactersCount += token.length(); // JA: Need to also count white space
 	}
 }
 

@@ -1,4 +1,4 @@
-package driver_proj0.java;
+//package driver_proj0.java;
 import java.util.*;
 import java.util.Collections;
 import java.util.Iterator;
@@ -14,7 +14,7 @@ public class ArrayList {
 	       int element,n,i;
 	       System.out.println("Enter number of elements to be inserted in a list");
 	       n=s.nextInt();
-	       List list = (List) new ArrayList();
+	       List list = (List) new ArrayList(); // JA: You can not cast this
 	       System.out.println("Enter list elements");
 	       for(i=0;i<n;i++){
 	          

@@ -1,5 +1,5 @@
-package driver_proj0.java;
-
+//package driver_proj0.java;
+// JA: Where is the Square class
 public class ColorableTest {
 
 	public static void main(String[] args) {
